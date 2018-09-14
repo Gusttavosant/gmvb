@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+button{
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 30px;
+    border: 0;
+}
+
+#pagina-pergunta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pagina-sabre{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina{
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jedi{
+    background-color: #12a212;
+}
+
+.sith{
+    background-color: #e80808;
+}
+
+.lamina{
+    width: 15px;
+    height: 350px;
+    background: linear-gradient(90deg, #e80808, #ec8383, #e80808);
+    border-radius: 10px 10px 0 0;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 50px #e80808;
+}
+
+.punho{
+    width: 15px;
+    height: 60px;
+    background: linear-gradient(90deg, #444, #999, #444);
+}
