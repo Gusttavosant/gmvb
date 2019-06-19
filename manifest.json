@@ -1,6 +1,6 @@
 {
-  "name": "Sabre de Luz",
-  "short_name": "Sabre",
+  "name": "GMVB APP",
+  "short_name": "GMVB",
   "icons": [
     {
       "src": "img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#fff",
+  "display": "fullscreen",
+  "background_color": "white",
   "theme_color": "#000"
 }

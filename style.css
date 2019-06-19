@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo{
+    height: 85vh;
+    background-image: linear-gradient(rgb(25, 0, 165), rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    max-width: 80vw;
+    margin-top: 80px;
+}
+
+.botoes{
+    width: 32px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1{
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}

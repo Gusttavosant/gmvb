@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: square;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
+.all{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    width: 32px;
+    height: 32px;
+}
+
+.backpag{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.backnv{
+    width: 32px;
+    height: 32px;
+    margin: 12px 0px 0px 15px;
+}
+
+
+.box{
+    display: flex;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+.box-1{
+    width: 40vw;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.box-2{
+    width: 50vw;
+    height: 100px;
+}
+
+.box-3{
+    width: 52vw;
+    height: 130px;
+    margin-top: 5px;
+    margin-right: 10px; 
+}
+
+.box-4{
+    width: 38vw;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.box-5{
+    width: 92vw;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-6{
+    width: 30.3vw;
+    height: 50px;
+    margin-right: 3px;
+    border-radius: 4px;
+}
+
+.box-7{
+    width: 52vw;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+.box-8{
+    width: 38vw;
+    height: 100px;
+    margin-top: 5px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.line, .line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9, .line10, .line11, .line12, .line13, .line14, .line15, .line16, .line17, .line18, .line19, .line20, .line21, .line22, .line23, .line24, .line25{
+    width: 24px;
+    height: 5px;
+    display: block;
+    margin: 8px auto;
+    background-color: red;
+    opacity: 0;
+}
+
+
+.all.is-active{
+    -webkit-filter: blur(3px);
+    pointer-events: none;
+}
+
+.cont-convenios.is-active.blur{
+    -webkit-filter: blur(5px);
+    pointer-events: none;
+}
+
+/* 
+.hamb, .hamb2, .hamb3, .hamb4, .hamb5, .hamb6, .hamb7, .hamb8, .hamb9, .hamb10, .hamb11, .hamb12, .hamb13, .hamb14, .hamb15, .hamb16, .hamb17, .hamb18, .hamb19, .hamb20, .hamb21, .hamb22, .hamb23, .hamb24, .hamb25{
+    cursor: pointer;
+} */
+
+
+.cont-produto, .cont-treinamento, .cont-cadastro, .cont-acesso, .cont-sistema, .cont-convenios, .cont-produtos, .cont-canal, .cont-tipo, .cont-entrega, .cont-fisico, .cont-inss, .cont-governosp, .cont-governorj, .cont-governoba, .cont-estadomgs, .cont-prefeiturasp, .cont-prefeiturarj, .cont-prefeituracu, .cont-ministerioaero, .cont-ministerioexe, .cont-ministeriomar, .cont-siape, .cont-pmsp, .cont-spprevidencia{
+    background-color: rgb(231, 231, 231);
+    padding: 0;
+    display: none;
+    border-radius: 4px;  
+}
+
+.cont-produto.is-active, .cont-treinamento.is-active, .cont-cadastro.is-active, .cont-acesso.is-active, .cont-sistema.is-active, .cont-convenios.is-active, .cont-produtos.is-active, .cont-canal.is-active, .cont-tipo.is-active, .cont-entrega.is-active, .cont-fisico.is-active, .cont-inss.is-active, .cont-governosp.is-active, .cont-governorj.is-active, .cont-governoba.is-active, .cont-estadomgs.is-active, .cont-prefeiturasp.is-active, .cont-prefeiturarj.is-active, .cont-prefeituracu.is-active, .cont-ministerioaero.is-active, .cont-ministerioexe.is-active, .cont-ministeriomar.is-active, .cont-siape.is-active, .cont-pmsp.is-active, .cont-spprevidencia.is-active
+{
+    width: 90vw;
+    margin-left: 5vw;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40%;
+    display: block;  
+    
+}
+
+.cont-produto.is-active .line:nth-child(1), .cont-treinamento.is-active .line2:nth-child(1), .cont-cadastro.is-active .line3:nth-child(1), .cont-acesso.is-active .line4:nth-child(1), .cont-sistema.is-active .line5:nth-child(1), .cont-convenios.is-active .line6:nth-child(1), .cont-produtos.is-active .line7:nth-child(1), .cont-canal.is-active .line8:nth-child(1), .cont-tipo.is-active .line9:nth-child(1), .cont-entrega.is-active .line10:nth-child(1), .cont-fisico.is-active .line11:nth-child(1), .cont-inss.is-active .line12:nth-child(1) , .cont-governosp.is-active .line13:nth-child(1), .cont-governorj.is-active .line14:nth-child(1), .cont-governoba.is-active .line15:nth-child(1), .cont-estadomgs.is-active .line16:nth-child(1), .cont-prefeiturasp.is-active .line17:nth-child(1), .cont-prefeiturarj.is-active .line18:nth-child(1), .cont-prefeituracu.is-active .line19:nth-child(1), .cont-ministerioaero.is-active .line20:nth-child(1), .cont-ministerioexe.is-active .line21:nth-child(1), .cont-ministeriomar.is-active .line22:nth-child(1), .cont-siape.is-active .line23:nth-child(1), .cont-pmsp.is-active .line24:nth-child(1), .cont-spprevidencia.is-active .line25:nth-child(1){
+    opacity: 1;
+    transform: translateY(13px) rotate(45deg);
+}
+.cont-produto.is-active .line:nth-child(3), .cont-treinamento.is-active .line2:nth-child(3), .cont-cadastro.is-active .line3:nth-child(3), .cont-acesso.is-active .line4:nth-child(3), .cont-sistema.is-active .line5:nth-child(3), .cont-convenios.is-active .line6:nth-child(3), .cont-produtos.is-active .line7:nth-child(3), .cont-canal.is-active .line8:nth-child(3), .cont-tipo.is-active .line9:nth-child(3), .cont-entrega.is-active .line10:nth-child(3), .cont-fisico.is-active .line11:nth-child(3), .cont-inss.is-active .line12:nth-child(3) , .cont-governosp.is-active .line13:nth-child(3), .cont-governorj.is-active .line14:nth-child(3), .cont-governoba.is-active .line15:nth-child(3), .cont-estadomgs.is-active .line16:nth-child(3), .cont-prefeiturasp.is-active .line17:nth-child(3), .cont-prefeiturarj.is-active .line18:nth-child(3), .cont-prefeituracu.is-active .line19:nth-child(3), .cont-ministerioaero.is-active .line20:nth-child(3), .cont-ministerioexe.is-active .line21:nth-child(3), .cont-ministeriomar.is-active .line22:nth-child(3), .cont-siape.is-active .line23:nth-child(3), .cont-pmsp.is-active .line24:nth-child(3), .cont-spprevidencia.is-active .line25:nth-child(3){
+    opacity: 1;
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+
+.cont-convenios.is-active{
+    margin-top: 30%;
+}
+/* ---------------------------------------------------------------- */
